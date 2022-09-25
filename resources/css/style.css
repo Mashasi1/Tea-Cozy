@@ -1,0 +1,200 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #2e8b57;
+    background-color: #000;
+    opacity: 0.9;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #2e8b57;
+    list-style: none;
+}
+
+/* Header */
+
+.container-header {
+    border-bottom: 1px solid #2e8b57;
+    position: fixed;
+    max-width: 1550px;
+    width: 100%;
+    background-color: #000;
+}
+
+header {
+    padding: 10px;
+    height: 69px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.logo {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.logo-menu {
+    display: flex;
+}
+
+.menu li {
+    display: inline-block;
+    text-decoration: underline;
+    padding-left: 15px;
+}
+
+.menu {
+    margin: 0;
+    padding: 15px 0;
+}
+
+/* Banner */
+
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.hero-section {
+    padding-top: 69px;
+    background-image: url(../../resources/images/img-mission-background.jpeg);
+    width: 1200px;
+    height: 700px;
+}
+
+.banner {
+    padding-top: 250px;
+}
+
+.banner-text {
+    background-color: #000;
+    line-height: 2;
+}
+
+/* Tea-section */
+
+.flex-tea-card img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea-section {
+    padding-top: 50px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.flex-tea-card h4 {
+    padding-top: 10px;
+}
+
+.flex-tea-card {
+    margin: 10px;
+}
+
+.flex-tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 1550px;
+    width: 100%;
+}
+
+.tea-section-heading {
+    line-height: 2;
+}
+
+
+/* Location-section */
+
+.flex-location-container li {
+    list-style: none;
+}
+
+.location-container {
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.location-section {
+    padding-top: 70px;
+    background-image: url(../../resources/images/img-locations-background.jpeg);
+    height: 500px;
+    width: 1200px;
+}
+
+.flex-location-card {
+    width: 300px;
+    margin: 15px 40px;
+    background-color: #000;
+    width: 300px;
+    line-height: 3;
+}
+
+.flex-location-card ul {
+    padding: 5px;
+}
+
+.flex-location-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Contact-section */
+
+.contact-container {
+    height: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1550px;
+    width: 100%;
+}
+
+.contact-section {
+    padding-top: 20px;
+}
+
+.contacts {
+    line-height: 2;
+}
+
+/* Footer */
+
+.container-footer {
+    padding-left: 20px;
+    margin-bottom: 30px;
+    max-width: 1550px;
+    width: 100%;
+}
+
+.footer {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
